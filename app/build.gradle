@@ -1,16 +1,16 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 29 // version del api con que se compilara el proyecto
     defaultConfig {
         applicationId "com.nextu_curso_android"
-        minSdkVersion 14
+        minSdkVersion 14 // version minima de android que pueda ejecutar la app
         targetSdkVersion 29
         versionCode 1
-        versionName "1.0"
+        versionName "1.0" // Version de la app
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
-    buildTypes {
+    buildTypes { // controla como contruir y empaquetar la aplicacion
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -18,7 +18,7 @@ android {
     }
 }
 
-dependencies {
+dependencies { // librerias que se implementaran en el proyecto
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'

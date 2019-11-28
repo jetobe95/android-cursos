@@ -5,4 +5,12 @@
     <string name="tennis">Tennis</string>
     <string name="actividad2">Activida 2</string>
     <string name="title">Aprendiendo android con nextU</string>
+    <string name="nombre">Nombre</string>
+    <string name="numero">Número</string>
+    <string name="add">Agregar contacto</string>
+    <string name="descripcion">28 de Noviembre, Jueves, Barranquilla</string>
+    <string name="time">12:00</string>
+    <string name="mexico">Mexico --------- 23:000</string>
+    <string name="santiago">Santiago------------ 23:00</string>
+    <string name="montevideo">Montevideo -------- 23:00</string>
 </resources>

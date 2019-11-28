@@ -6,4 +6,5 @@
     <color name="colorFutbol">#cccc</color>
     <color name="colorTennis">#9b9999</color>
     <color name="colorBaloncesto">#9b9999</color>
+    <color name="white">#fff</color>
 </resources>

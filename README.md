@@ -69,6 +69,38 @@
 `android:layout_span="2"` Hace que una columna cresca el numero de columas faltantes
 
 
+## Grid Layout
+
+Ejercicio de codificación 1
+
+ !['Ejercicio'](assets/grid-layout.png)
+
+Ejercicio de codificación 2
+
+ !['Ejercicio'](assets/calculator.png)
+
+
+Se debe especificar el numero de columnas y filas que va a tener con `  android:columnCount="2"
+    ` y  `android:layout_row="2"`
+
+```xml
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:layout_row="2"
+    tools:context=".MainActivity">
+```
+
+```xml 
+<ImageView
+  android:layout_columnSpan="2"
+  android:layout_rowSpan="2" />
+```
+`android:layout_columnSpan="2"` indican la cantidad de espacio que pueden expandirse en direccion de las columnas
+
+`android:layout_rowSpan="2" ` indican la cantidad de espacio que pueden expandirse en direccion de las filas
 
 
 

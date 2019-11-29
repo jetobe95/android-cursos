@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <dimen name="image_width">120dp</dimen>
+    <dimen name="image_height">150dp</dimen>
+    <dimen name="image_height2">300dp</dimen>
+    <dimen name="image_width2">240dp</dimen>
+    <dimen name="image_width3">300dp</dimen>
+    <dimen name="textSize">20dp</dimen>
+</resources>

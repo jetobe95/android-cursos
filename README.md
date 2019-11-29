@@ -103,6 +103,14 @@ Se debe especificar el numero de columnas y filas que va a tener con `  android:
 `android:layout_rowSpan="2" ` indican la cantidad de espacio que pueden expandirse en direccion de las filas
 
 
+## Combinando layout
+ !['Ejercicio'](assets/combinando-layout.png)
+
+
+ ## Ejercicio de codificación 1
+ !['Ejercicio'](assets/combinando-layout-ejer1.png)
+
+ En este ejercicio utilizé `TableLayout` con 3 columnas
 
 
 ## Glosario

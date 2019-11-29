@@ -1,10 +1,19 @@
 <resources>
-    <string name="app_name">Layouts</string>
+    <string name="app_name">Combinando Layouts</string>
 
     <string name="actividad2">Activida 2</string>
     <string name="hello">Hello world</string>
     <string name="tennis">Tennis</string>
     <string name="futbol">Fútbol</string>
+    <string name="android1">Apple Pie</string>
+    <string name="android2">Banana Bread</string>
+    <string name="leon">Nombre :León</string>
+    <string name="especie">Especie: Felino</string>
+    <string name="pato">Nombre:Pato</string>
+    <string name="producto">Producto</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="valor">Valor</string>
+    <string name="valor_unidad">Valor Unidad</string>
 
 
 </resources>

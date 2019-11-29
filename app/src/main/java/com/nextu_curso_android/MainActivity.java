@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        setContentView(R.layout.calculator);
+        setContentView(R.layout.combinando_layout_ejer1);
         final Promedio prome = new Promedio();
         Log.i("TAG",prome.calavg());
 

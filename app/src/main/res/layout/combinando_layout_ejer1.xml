@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:stretchColumns="*"
+    >
+
+    <TableRow
+        android:background="@color/colorPrimaryDark"
+        >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/producto"
+                android:textColor="@color/white"
+                android:textAppearance="?android:textAppearanceListItem"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cantidad"
+                android:textColor="@color/white"
+                android:textAppearance="?android:textAppearanceListItem"
+                android:gravity="right"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/valor_unidad"
+                android:textColor="@color/white"
+                android:textAppearance="?android:textAppearanceListItem"
+                android:gravity="center"
+                />
+
+
+
+    </TableRow>
+
+
+
+
+
+    <TableRow>
+            <TextView android:text="Auriculares"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                />
+            <TextView android:text="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                />
+            <TextView
+                android:text="$1000"
+
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+    </TableRow>
+
+
+
+    <TableRow>
+        <TextView android:text="Celular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            />
+        <TextView android:text="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+        <TextView
+            android:text="$4000"
+
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Cargador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            />
+        <TextView android:text="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+        <TextView
+            android:text="$1000"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Protector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            />
+        <TextView android:text="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+        <TextView
+            android:text="$2000"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView android:text="Subtotal"
+            android:layout_span="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            />
+        <TextView
+            android:text="$14000"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </TableRow>
+
+
+    <TableRow
+
+        >
+
+        <TextView android:text="Impuestos"
+            android:layout_span="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            />
+        <TextView
+            android:text="$1400"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </TableRow>
+
+
+
+    <TableRow
+
+        >
+
+        <TextView android:text="Descuentos"
+            android:layout_span="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            />
+        <TextView
+            android:text="$700"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </TableRow>
+
+
+
+    <TableRow
+
+        >
+
+        <TextView android:text="Total"
+            android:layout_span="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            />
+        <TextView
+            android:text="$14700"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </TableRow>
+
+
+</TableLayout>

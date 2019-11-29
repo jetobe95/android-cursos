@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent">
+
+
+<TableRow
+    android:layout_weight="1"
+    >
+    <ImageView
+        android:src="@drawable/leon"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        />
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+       android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/leon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/especie"/>
+    </LinearLayout>
+</TableRow>
+
+
+
+    <TableRow
+        android:layout_weight="1"
+        >
+        <ImageView
+            android:scaleType="centerCrop"
+            android:src="@drawable/pato"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            />
+        <LinearLayout
+            android:padding="16dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:textColor="@color/white"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/leon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/especie"/>
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        >
+        <ImageView
+            android:scaleType="centerCrop"
+            android:src="@drawable/pez"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        <LinearLayout
+            android:padding="16dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/leon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/especie"/>
+        </LinearLayout>
+    </TableRow>
+
+
+
+
+
+
+</TableLayout>

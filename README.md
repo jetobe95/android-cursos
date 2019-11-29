@@ -1,7 +1,7 @@
 # Curso de android Next U
 
 ## Layouts
-## Hay varios tipo de layouts en android
+## Hay varios tipos de layouts en android
 * Frame Layout
 * Linear Layout
 * Relative Layout
@@ -121,3 +121,13 @@ Se debe especificar el numero de columnas y filas que va a tener con `  android:
 - `gravity`: Alinea el contenido de un elemento
 
  
+
+
+# Activities
+
+Son las ventanas con que el usuario interactua,compuesto por un `.xml` y `.java` .
+> Todas deben ser registradas en `AndroidManifest`
+
+## Ciclo de vida
+
+ 1. `onCreate` crea el activity, haciendo uso de `setContentView` para cargar la interfaz de usuario

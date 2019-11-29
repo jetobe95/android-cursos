@@ -6,4 +6,5 @@
     <dimen name="image_width2">240dp</dimen>
     <dimen name="image_width3">300dp</dimen>
     <dimen name="textSize">20dp</dimen>
+    <dimen name="buttonImage">100dp</dimen>
 </resources>

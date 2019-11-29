@@ -110,7 +110,10 @@ Se debe especificar el numero de columnas y filas que va a tener con `  android:
  ## Ejercicio de codificación 1
  !['Ejercicio'](assets/combinando-layout-ejer1.png)
 
- En este ejercicio utilizé `TableLayout` con 3 columnas
+
+ ## Ejercicio de codificación 2
+ !['Ejercicio'](assets/combinando-layout-ejer2.png)
+
 
 
 ## Glosario

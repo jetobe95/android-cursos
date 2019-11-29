@@ -2,9 +2,10 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#00574B</color>
+    <color name="colorAccent">#FF4081</color>
     <color name="colorFutbol">#cccc</color>
     <color name="colorTennis">#9b9999</color>
-    <color name="colorBaloncesto">#9b9999</color>
+    <color name="coffee">#4e342e</color>
     <color name="white">#fff</color>
+
 </resources>

@@ -1,104 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp"
-    android:orientation="vertical"
+    android:stretchColumns="0,1"
     tools:context=".MainActivity">
-    <Button
-        android:id="@+id/centro"
-        android:background="@color/colorPrimary"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_centerInParent="true"
-        />
+    <TableRow>
+        <TextView
+            android:text="@string/subtitle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+        <TextView
+            android:text="@string/session1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+        <TextView
+            android:text="@string/session2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/subtitle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+        <TextView
+            android:text="@string/session1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+        <TextView
+            android:text="@string/session2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/subtitle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+        <TextView
+            android:text="@string/session1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+        <TextView
+            android:text="@string/session2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+    </TableRow>
 
-    <Button
-        android:id="@+id/arriba"
-        android:background="@color/colorPrimaryDark"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_above="@id/centro"
-        android:layout_margin="32dp"
-        android:layout_centerHorizontal="true"
-        />
 
-
-    <Button
-        android:id="@+id/debajo"
-
-        android:background="@color/colorPrimary"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_below="@id/centro"
-        android:layout_margin="32dp"
-        android:layout_centerHorizontal="true"
-        />
-
-    <Button
-        android:id="@+id/derecha"
-
-        android:background="@color/colorPrimary"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_toRightOf="@id/centro"
-        android:layout_margin="32dp"
-        android:layout_centerVertical="true"
-        />
-
-    <Button
-        android:id="@+id/izquierda"
-        android:background="@color/colorPrimary"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_toLeftOf="@id/centro"
-        android:layout_margin="32dp"
-        android:layout_centerVertical="true"
-
-        />
-
-    <Button
-
-        android:background="@color/colorPrimary"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_toLeftOf="@id/centro"
-        android:layout_above="@id/izquierda"
-        android:layout_margin="16dp"
-        android:layout_centerVertical="true"
-        />
-
-    <Button
-
-    android:background="@color/colorPrimary"
-    android:layout_width="30dp"
-    android:layout_height="30dp"
-    android:layout_toLeftOf="@id/centro"
-    android:layout_below="@id/izquierda"
-    android:layout_margin="16dp"
-    android:layout_centerVertical="true"
-    />
-    <Button
-
-        android:background="@color/colorPrimary"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_toRightOf="@id/debajo"
-        android:layout_below="@id/izquierda"
-        android:layout_margin="16dp"
-        android:layout_centerVertical="true"
-        />
-
-    <Button
-
-    android:background="@color/colorPrimary"
-    android:layout_width="30dp"
-    android:layout_height="30dp"
-    android:layout_toRightOf="@id/debajo"
-    android:layout_above="@id/izquierda"
-    android:layout_margin="16dp"
-    android:layout_centerVertical="true"
-    />
-</RelativeLayout>
+</TableLayout>

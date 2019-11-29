@@ -2,5 +2,13 @@
     <string name="app_name">Layouts</string>
 
     <string name="actividad2">Activida 2</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="inicio">Iniciar sesión</string>
+    <string name="welcome">Bienvenidos</string>
+    <string name="subtitle">Tutor Café</string>
+    <string name="session1">1. Seccion 1. 10:00 am.</string>
+    <string name="session2">2. Sesion 2   4:00 PM</string>
+    <string name="session3">3. Sesion 3   7:00 PM</string>
 
 </resources>

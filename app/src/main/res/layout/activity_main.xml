@@ -3,58 +3,98 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:stretchColumns="0,1"
+    android:stretchColumns="*"
     tools:context=".MainActivity">
-    <TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        >
         <TextView
-            android:text="@string/subtitle"
-            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_height="match_parent"
             android:layout_width="wrap_content"
+            android:background="@color/coffee"
+            android:padding="10sp"
+            android:textColor="@color/white"
+            android:gravity="center"
             />
         <TextView
-            android:text="@string/session1"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
+            android:text="Texto 2"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+
+            android:background="@color/colorAccent"
+            android:padding="10sp"
+            android:textColor="@color/white"
+            android:gravity="center"
             />
         <TextView
-            android:text="@string/session2"
-            android:layout_height="wrap_content"
+            android:text="3"
+            android:layout_height="match_parent"
             android:layout_width="wrap_content"
+            android:background="@color/coffee"
+            android:padding="10sp"
+            android:textColor="@color/white"
+            android:gravity="center"
             />
     </TableRow>
-    <TableRow>
+    <TableRow
+        android:layout_weight="1"
+        >
         <TextView
-            android:text="@string/subtitle"
-            android:layout_height="wrap_content"
+            android:text="4"
+            android:layout_height="match_parent"
             android:layout_width="wrap_content"
+            android:background="@color/colorAccent"
+            android:padding="10sp"
+            android:textColor="@color/white"
+            android:gravity="center"
             />
         <TextView
-            android:text="@string/session1"
-            android:layout_height="wrap_content"
+            android:text="5"
+            android:layout_height="match_parent"
             android:layout_width="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="10sp"
+            android:textColor="@color/white"
+            android:gravity="center"
             />
         <TextView
             android:text="@string/session2"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_width="wrap_content"
+            android:background="@color/coffee"
+            android:padding="10sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"
             />
     </TableRow>
-    <TableRow>
+    <TableRow
+        android:layout_weight="1"
+        >
         <TextView
             android:text="@string/subtitle"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_width="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:padding="10sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"
             />
         <TextView
-            android:text="@string/session1"
-            android:layout_height="wrap_content"
+            android:text="Layout Span"
+            android:layout_height="match_parent"
             android:layout_width="wrap_content"
+            android:background="@color/colorAccent"
+            android:padding="10sp"
+            android:textColor="@color/white"
+            android:layout_span="2"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"
             />
-        <TextView
-            android:text="@string/session2"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            />
+
     </TableRow>
 
 

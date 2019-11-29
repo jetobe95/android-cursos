@@ -38,6 +38,41 @@
 1.  ` android:layout_below="id"` indica que un debe alinearse debajo del elemento con el `id` 
 
 
+## Table Layout
+
+
+ !['Ejercicio'](assets/table-layout.png)
+
+
+```xml 
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:shrinkColumns="0,1,"
+    tools:context=".MainActivity">
+```
+
+```xml 
+<TableRow
+    android:layout_weight="1"
+  />
+```
+`android:layout_weight="1"` puede adicionarse para dar un tamaño a la fila 
+
+`android:stretchColumns="0,1,2,..."` Esta propiedad la cantidad de spacio que puede tomar una columna dentro de la fila
+
+`android:shrinkColumns="0,1,"` Indica las columnas que se pueden contraer
+
+`android:layout_span="2"` Hace que una columna cresca el numero de columas faltantes
+
+
+
+
+
+
 ## Glosario
 
 - `gravity`: Alinea el contenido de un elemento

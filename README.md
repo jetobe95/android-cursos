@@ -1,6 +1,13 @@
 # Curso de android Next U
 
 ## Layouts
+## Hay varios tipo de layouts en android
+* Frame Layout
+* Linear Layout
+* Relative Layout
+* Table Layout
+* Grid Layout
+
 
 ### Linear layout
  
@@ -17,4 +24,22 @@
         android:hint="@string/descripcion" 
       />
  ````
+
+
+ ### Relative layout
+ 
+ !['Ejercicio'](assets/relative-layout.png)
+
+ Este tipo de layout consiste en ubicar un elemento con respecto al otro por medio de su `@+id/` 
+
+#### Algunos de los valores de elemplo son
+1. `android:layout_centerInParent="true"` centra un elemento en centro de padre
+1.  ` android:layout_above="id"` indica que un debe alinearse arriba del elemento con el `id` 
+1.  ` android:layout_below="id"` indica que un debe alinearse debajo del elemento con el `id` 
+
+
+## Glosario
+
+- `gravity`: Alinea el contenido de un elemento
+
  

@@ -4,62 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="10dp"
     android:orientation="vertical"
-    android:background="#181818"
     tools:context=".MainActivity">
 
 
-    <TextView
+    <EditText
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2"
-        android:text="@string/time"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:textSize="100dp" />
-
-   <TextView
-    android:layout_width="match_parent"
-    android:layout_height="0dp"
-       android:layout_weight="1"
-    android:text="@string/descripcion"
-    android:layout_gravity="center"
-    android:gravity="center"
-       android:textColor="@color/white"
-    android:textSize="20dp"
-       />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_weight="1"
         android:layout_height="wrap_content"
-        android:text="@string/mexico"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:textSize="20dp"
+        android:hint="@string/codigo" />
 
-        />
-
-    <TextView
-    android:layout_width="match_parent"
-    android:layout_weight="1"
-    android:layout_height="0dp"
-    android:text="@string/santiago"
-    android:layout_gravity="center"
-    android:gravity="center"
-    android:textColor="@color/white"
-    android:textSize="20dp"
-    />
-    <TextView
+    <EditText
         android:layout_width="match_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:hint="@string/producto_nombre" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Peso" />
+    <EditText
+        android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:text="@string/montevideo"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        />
+        android:layout_weight="1"
+        android:gravity="top"
+
+        android:hint="@string/descripcion" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancelar"/>
 </LinearLayout>

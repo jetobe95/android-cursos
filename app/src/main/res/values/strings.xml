@@ -8,9 +8,14 @@
     <string name="nombre">Nombre</string>
     <string name="numero">Número</string>
     <string name="add">Agregar contacto</string>
-    <string name="descripcion">28 de Noviembre, Jueves, Barranquilla</string>
     <string name="time">12:00</string>
     <string name="mexico">Mexico --------- 23:000</string>
     <string name="santiago">Santiago------------ 23:00</string>
     <string name="montevideo">Montevideo -------- 23:00</string>
+    <string name="codigo">Código</string>
+    <string name="producto_nombre">Nombre del producto</string>
+    <string name="Peso">Peso(Kg)</string>
+    <string name="descripcion">Descripción</string>
+    <string name="enviar">Enviar</string>
+    <string name="cancelar">Cancelar</string>
 </resources>

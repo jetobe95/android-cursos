@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,35 +7,56 @@
     android:padding="10dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:text="TextView 1"/>
 
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/codigo" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/producto_nombre" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/Peso" />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:gravity="top"
-
-        android:hint="@string/descripcion" />
     <Button
-        android:layout_width="match_parent"
+        android:id="@+id/boton1"
+        android:text="Boton 1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/enviar"/>
+        android:layout_alignParentRight="true"
+        />
     <Button
-        android:layout_width="match_parent"
+        android:id="@+id/boton2"
+        android:text="Boton 2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/cancelar"/>
-</LinearLayout>
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:id="@+id/boton3"
+        android:text="Boton 3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/boton1"
+        />
+
+    <Button
+        android:id="@+id/boton4"
+        android:text="Eclair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_toRightOf="@id/boton2"
+        android:layout_alignParentBottom="true"
+        />
+    <Button
+        android:id="@+id/boton5"
+        android:text="Botton 5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/boton2"
+
+
+
+        />
+
+
+
+</RelativeLayout>

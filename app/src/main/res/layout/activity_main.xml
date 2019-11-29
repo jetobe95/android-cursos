@@ -7,58 +7,98 @@
     android:padding="10dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
-<TextView
-    android:id="@+id/textview1"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_centerInParent="true"
-    android:text="TextView 1"/>
-
     <Button
-        android:id="@+id/boton1"
-        android:text="Boton 1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        />
-    <Button
-        android:id="@+id/boton2"
-        android:text="Boton 2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/centro"
+        android:background="@color/colorPrimary"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
         />
 
     <Button
-        android:id="@+id/boton3"
-        android:text="Boton 3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toLeftOf="@id/boton1"
+        android:id="@+id/arriba"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@id/centro"
+        android:layout_margin="32dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <Button
+        android:id="@+id/debajo"
+
+        android:background="@color/colorPrimary"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/centro"
+        android:layout_margin="32dp"
+        android:layout_centerHorizontal="true"
         />
 
     <Button
-        android:id="@+id/boton4"
-        android:text="Eclair"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/derecha"
 
-        android:layout_toRightOf="@id/boton2"
-        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/centro"
+        android:layout_margin="32dp"
+        android:layout_centerVertical="true"
         />
+
     <Button
-        android:id="@+id/boton5"
-        android:text="Botton 5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textview1"
-        android:layout_centerInParent="true" />
+        android:id="@+id/izquierda"
+        android:background="@color/colorPrimary"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toLeftOf="@id/centro"
+        android:layout_margin="32dp"
+        android:layout_centerVertical="true"
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hola"/>
+        />
 
+    <Button
 
+        android:background="@color/colorPrimary"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toLeftOf="@id/centro"
+        android:layout_above="@id/izquierda"
+        android:layout_margin="16dp"
+        android:layout_centerVertical="true"
+        />
 
+    <Button
+
+    android:background="@color/colorPrimary"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_toLeftOf="@id/centro"
+    android:layout_below="@id/izquierda"
+    android:layout_margin="16dp"
+    android:layout_centerVertical="true"
+    />
+    <Button
+
+        android:background="@color/colorPrimary"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/debajo"
+        android:layout_below="@id/izquierda"
+        android:layout_margin="16dp"
+        android:layout_centerVertical="true"
+        />
+
+    <Button
+
+    android:background="@color/colorPrimary"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_toRightOf="@id/debajo"
+    android:layout_above="@id/izquierda"
+    android:layout_margin="16dp"
+    android:layout_centerVertical="true"
+    />
 </RelativeLayout>

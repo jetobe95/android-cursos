@@ -14,6 +14,12 @@
     <string name="cantidad">Cantidad</string>
     <string name="valor">Valor</string>
     <string name="valor_unidad">Valor Unidad</string>
+    <string name="click">Click aqui</string>
+    <string name="cadena">Bienvenido a la certificacion android</string>
+    <string name="navegar">Navegar</string>
+    <string name="primer_numero">Ingrese primer número</string>
+    <string name="segundo_numero">Ingrese segundo número</string>
+    <string name="sumar">Sumar</string>
 
 
 </resources>

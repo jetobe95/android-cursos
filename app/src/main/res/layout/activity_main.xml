@@ -8,30 +8,19 @@
     android:padding="10dp"
 
     >
-
-   <EditText
-       android:hint="@string/primer_numero"
-       android:id="@+id/numberA"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content" />
-
-    <EditText
-        android:id="@+id/numberB"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/numberA"
-        android:hint="@string/segundo_numero"
-        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ciclo de vida"
+    />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sumar"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
+        android:text="@string/navegar"
         android:onClick="navegar"
+        android:layout_centerInParent="true"
         />
-
 
 
 

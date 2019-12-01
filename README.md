@@ -131,3 +131,69 @@ Son las ventanas con que el usuario interactua,compuesto por un `.xml` y `.java
 ## Ciclo de vida
 
  1. `onCreate` crea el activity, haciendo uso de `setContentView` para cargar la interfaz de usuario
+
+```java 
+ @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        Log.wtf("Ciclo de vida","onCreate");
+
+    }
+
+  @Override
+    protected void onStart() {
+        super.onStart();
+        Log.wtf("Ciclo de vida","onStart");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.wtf("Ciclo de vida","onResume");
+    }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.wtf("Ciclo de vida","onPause");
+    }
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.wtf("Ciclo de vida","onStop");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.wtf("Ciclo de vida","onDestroy");
+    }
+```
+
+
+### Para guardar el estado la aplicación cuando esta hace `onStop`
+
+```java
+@Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        Log.wtf("Ciclo de vida","onSaveInstanceState");
+        outState.putString(STATE_MESSAGE,mensaje.getText().toString());
+
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        if(savedInstanceState!=null){
+            mensaje.setText(savedInstanceState.getString(STATE_MESSAGE));
+        }
+    }
+```
+
+
+## Adptadores de ListaViews
+
+Crea un puente entre la parte lógica y la interfaz gráfica
+Mayormente usado en `GridView`,`ListView`
+  

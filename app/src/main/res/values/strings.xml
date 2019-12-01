@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Combinando Layouts</string>
+    <string name="app_name">Adapters</string>
 
     <string name="actividad2">Activida 2</string>
     <string name="hello">Hello world</string>
@@ -20,6 +20,42 @@
     <string name="primer_numero">Ingrese primer número</string>
     <string name="segundo_numero">Ingrese segundo número</string>
     <string name="sumar">Sumar</string>
+    <string name="opcion">Opción</string>
+    <string name="ejercicio_adapters_1">Ejercicio Adapters</string>
+    <string name="alarma">Alarma</string>
+    <string name="reproduccion">Reproducción</string>
+    <string name="activado">Activado</string>
+    <string name="desactivado">Desactivado</string>
+    <string name="nombreCancion">Nombre de la canción</string>
+    <string name="nombreArtista">Nombre del artista</string>
 
+    <string-array name="dias_semana">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
+
+    <string-array name="horario_de_clases">
+        <item>Matematicas</item>
+        <item>Sociales</item>
+        <item>Español</item>
+        <item>Fisica</item>
+        <item>Quimica</item>
+        <item>Quimica</item>
+        <item>Quimica</item>
+
+    </string-array>
+
+
+    <string-array name="alarmas">
+        <item>6:00 pm</item>
+        <item>5:00 am</item>
+        <item>5:30 am</item>
+        <item>12:00 pm</item>
+    </string-array>
 
 </resources>

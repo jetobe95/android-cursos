@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ReproductorActivity"></activity>
+        <activity android:name=".SpinnersActivity"></activity>
+        <activity android:name=".ReproductorActivity" />
         <activity android:name=".ListaAlarmas" />
         <activity android:name=".Navegacion" />
         <activity
